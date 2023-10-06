@@ -5,7 +5,7 @@ class Solution {
         int n1=a.length()-1;
         int n2=b.length()-1;
         int carry=0, base=2;
-        while(n1>=0|| n2>=0|| carry!=0){
+        while(n1>=0|| n2>=0|| carry!=0){  
 int t1=0,t2=0,sum;
 
             if(n1>=0){
