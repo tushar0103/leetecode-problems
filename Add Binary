@@ -7,7 +7,7 @@ class Solution {
         int carry=0, base=2;
         while(n1>=0|| n2>=0|| carry!=0){  
 int t1=0,t2=0,sum;
-
+ 
             if(n1>=0){
                 t1=a.charAt(n1--)-'0';
             }
