@@ -8,7 +8,7 @@ class Solution {
             } else {   
                 sb.append(s.charAt(i)); // To add string character  into StringBuilder
             }
-        }
+        }  
         return sb.toString(); // To convert StringBuilder into String in readable format.
     }
 }
